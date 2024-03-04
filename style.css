@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: aquamarine;
+}
+
+
+.container{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    
+    background-color: transparent;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.displaycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.screen{
+    border: 2px solid black;
+    margin-left: 41%;
+    margin-top: 40px;
+    height: 44px;
+    width: 254px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-size: 1.7rem;
+    font-family: "Pacifico", cursive;
+}
+
+ .scorePlayer{
+    display: flex;
+    margin-left: 34%;
+}
+.players{
+    padding-left: 106px;
+    font-size: 1.3rem;
+    
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    padding-left: 165px;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+#playerScore{
+    margin-left: -134px;
+}
+.reset{
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solidblack;
+    border-radius: 50%;
+    margin-left: 50%;
+    font-size: 1.4rem;
+    transform: none;
+}
+.reset:hover{
+    cursor: pointer;
+}
+.reset:active{
+    transform: scale(0.7);
+}
